@@ -1,23 +1,10 @@
 {
   "routes": [
     {
-      "routes": [
-        {
-          "route": "/api/*",
-          "allowedRoles": [
-            "anonymous"
-          ]
-        }
-      ],
-      "navigationFallback": {
-        "rewrite": "/index.html"
-      },
-      "platform": {
-        "apiRuntime": "node:18"
-      },
-      "globalHeaders": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "route": "/api/*",
+      "allowedRoles": [
+        "anonymous"
+      ]
     }
   ],
   "navigationFallback": {
